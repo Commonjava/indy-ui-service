@@ -38,4 +38,5 @@ log/*
 
 *.dat
 
-
+# compose
+compose/config/*.json
