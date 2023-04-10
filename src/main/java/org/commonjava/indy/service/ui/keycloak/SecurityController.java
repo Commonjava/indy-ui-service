@@ -32,6 +32,10 @@ import java.net.MalformedURLException;
 import java.nio.charset.Charset;
 import java.util.Properties;
 
+/**
+ * @deprecated Will use quarkus native oidc implementation. This is not needed anymore
+ */
+@Deprecated
 @ApplicationScoped
 public class SecurityController
 {

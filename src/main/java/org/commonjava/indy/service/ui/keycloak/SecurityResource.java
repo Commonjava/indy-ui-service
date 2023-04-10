@@ -35,6 +35,10 @@ import java.net.URISyntaxException;
 
 import static javax.ws.rs.core.HttpHeaders.CACHE_CONTROL;
 
+/**
+ * @deprecated Will use quarkus native oidc implementation. This is not needed anymore
+ */
+@Deprecated
 @Tag( description = "Security Infrastructure" )
 @Path( "/api/security" )
 public class SecurityResource

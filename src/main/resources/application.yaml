@@ -5,11 +5,6 @@ quarkus:
     enable-compression: true
     limits:
       max-body-size: 500M
-#    auth:
-#      permission:
-#        authenticated:
-#          paths: "/*"
-#          policy: authenticated
   package:
     type: uber-jar
   application:
@@ -21,16 +16,6 @@ quarkus:
   keycloak:
     devservices:
       enabled: false
-#  oidc:
-#    enabled: true
-#    auth-server-url: "http://localhost:8180/realms/indyuiservice"
-#    "client-id": "indy"
-#    credentials:
-#      secret: "secret"
-#    "application-type": "web-app"
-#    logout:
-#      path: "/logout"
-#      post-logout-path: "/"
   log:
     level: INFO
     min-level: TRACE
@@ -120,8 +105,8 @@ keycloak:
 ## [rest client]
 service-api/mp-rest/uri: http://localhost:8080/
 service-api/mp-rest/scope: javax.inject.Singleton
-#service-api/mp-rest/connectTimeout: 60000
-#service-api/mp-rest/readTimeout: 60000
+service-api/mp-rest/connectTimeout: 60000
+service-api/mp-rest/readTimeout: 60000
 #service-api/mp-rest/providers: org.commonjava.indy.service.ui.client.AuthClientRequestFilter
 
 "%dev":
