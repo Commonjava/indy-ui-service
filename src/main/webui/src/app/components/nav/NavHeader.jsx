@@ -15,9 +15,10 @@
  */
 
 import React from 'react';
-import {Link} from 'react-router-dom';
-import Dropdown from 'react-bootstrap/Dropdown';
-import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import {LinkContainer} from 'react-router-bootstrap';
 
 // TODO: This is mock user login, need to implement later for real login
@@ -27,55 +28,44 @@ const username = "mock";
 // eslint-disable-next-line max-lines-per-function
 export default function NavHeader(){
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light" role="navigation">
-      <Link className="navbar-brand" to="">Indy</Link>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav me-auto">
+    <Navbar expand="lg" className="bg-body-tertiary fixed-top">
+      <Container fluid>
+        <LinkContainer key="link-home" to="">
+          <Navbar.Brand>Indy</Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
           {
             [
               {type: "remote", desc: "Remote Repositories"},
               {type: "hosted", desc: "Hosted Repositories"},
               {type: "group", desc: "Groups"}
-            ].map(o =><Dropdown key={`dropdown-${o.type}`} data-bs-theme="dark" className="mx-1">
-                <Dropdown.Toggle id={`dropdown-button-dark-${o.type}`} variant="secondary">
-                  {o.desc}
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  {
-                    ["maven", "generic-http", "npm"].map(pkgType => <LinkContainer key={`link-${pkgType}`} to={`/${o.type}/${pkgType}`}>
-                        <Dropdown.Item>{pkgType}</Dropdown.Item>
-                      </LinkContainer>)
-                  }
-                </Dropdown.Menu>
-              </Dropdown>)
+            ].map(o =><NavDropdown key={`dropdown-${o.type}`} title={o.desc} id={`dropdown-button-dark-${o.type}`}>
+                {
+                  ["maven", "generic-http", "npm"].map(pkgType => <LinkContainer key={`link-${pkgType}`} to={`/${o.type}/${pkgType}`}>
+                      <NavDropdown.Item>{pkgType}</NavDropdown.Item>
+                    </LinkContainer>)
+                }
+            </NavDropdown>)
           }
-          <Button href="/q/swagger-ui/" variant="secondary" className="mx-1">REST API</Button>
-          <Dropdown data-bs-theme="dark" className="mx-1">
-            <Dropdown.Toggle id={`dropdown-button-dark-addons`} variant="secondary">
-              More
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
+            <Nav.Link href="/q/swagger-ui">REST API</Nav.Link>
+            <NavDropdown title="More" id="addon-more">
               <LinkContainer to="/nfc">
-                <Dropdown.Item>Not-Found Cache</Dropdown.Item>
+                <NavDropdown.Item>Not-Found Cache</NavDropdown.Item>
               </LinkContainer>
               <LinkContainer to="/cache/delete">
-                <Dropdown.Item>Delete Cache</Dropdown.Item>
+                <NavDropdown.Item>Delete Cache</NavDropdown.Item>
               </LinkContainer>
-            </Dropdown.Menu>
-          </Dropdown>
-          </ul>
-          { isUserloggedIn && <ul className="navbar-nav ms-auto">
-              <Dropdown data-bs-theme="dark" className="mx-1">
-                <Dropdown.Toggle id={`dropdown-button-dark-addons`} variant="link">
-                  {username}
-                </Dropdown.Toggle>
-                <Dropdown.Menu>
-                  <Dropdown.Item href="/logout" variant="link">Log Out</Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </ul>
+            </NavDropdown>
+          </Nav>
+          { isUserloggedIn && <Nav className="ms-auto">
+              <NavDropdown title={username} id="username">
+                <NavDropdown.Item href="/logout" variant="link">Log Out</NavDropdown.Item>
+              </NavDropdown>
+            </Nav>
           }
-      </div>
-    </nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }

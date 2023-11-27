@@ -29,14 +29,14 @@ describe('Header tests', () => {
   it("Verify Header for elements existing", async ()=>{
     const user = userEvent.setup();
     render(<MemoryRouter><NavHeader /></MemoryRouter>);
-    expect(screen.getByRole("link", {Name: "Indy"})).toBeInTheDocument();
+    expect(screen.getByRole("link", {name: "Indy"})).toHaveAttribute("href", "/");
     const remoteReposButton = screen.getByRole("button", {name: "Remote Repositories"});
     expect(remoteReposButton).toBeInTheDocument();
     const hostedReposButton = screen.getByRole("button", {name: "Hosted Repositories"});
     expect(hostedReposButton).toBeInTheDocument();
     const groupsButton = screen.getByRole("button", {name: "Groups"});
     expect(groupsButton).toBeInTheDocument();
-    expect(screen.getByRole("button", {name: "REST API"})).toBeInTheDocument();
+    expect(screen.getByRole("link", {name: "REST API"})).toHaveAttribute("href", "/q/swagger-ui");
     const addonsButton = screen.getByRole("button", {name: "More"});
     expect(addonsButton).toBeInTheDocument();
     // TODO: test the user login elements later when implemented

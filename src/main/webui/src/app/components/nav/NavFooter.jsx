@@ -15,6 +15,10 @@
  */
 
 import React, {useEffect, useState} from 'react';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import {jsonRest} from '../../utils/RestClient';
 import {Utils} from '../../utils/AppUtils';
 
@@ -45,26 +49,24 @@ export default function NavFooter() {
   const stats = state.stats;
   const gridClass = "col-md-auto border-right border-secondary";
   return (
-    <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-light" role="navigation">
-      <div className="container">
-        <div className="row">
-          <div className={gridClass}>
+    <Navbar expand="lg" className="bg-body-tertiary fixed-bottom">
+      <Container>
+        <Row>
+          <Col className={gridClass}>
             <a target="_new" href="http://commonjava.github.io/indy/">Docs</a>
-          </div>
-          <div className={gridClass}>
+          </Col>{" | "}
+          <Col className={gridClass}>
             <a target="_new" href="http://github.com/commonjava/indy/issues">Issues</a>
-          </div>
-          <div className={gridClass}>
-            Version:{stats.version}
-          </div>
-          <div className={gridClass}>
+          </Col>{" | "}
+          <Col className={gridClass}>Version:{stats.version}</Col>{" | "}
+          <Col className={gridClass}>
             Commit ID: <a target="_new" href={`http://github.com/commonjava/indy/commit/${stats.commitId}`}>{stats.commitId}</a>
-          </div>
-          <div className="col-md-auto">
+          </Col>{" | "}
+          <Col className="col-md-auto">
             Built on {stats.timestamp} by <a target="_new" href={`http://github.com/${stats.builder}`}>{stats.builder}</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+          </Col>
+        </Row>
+      </Container>
+    </Navbar>
   );
 }
