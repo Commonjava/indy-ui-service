@@ -320,7 +320,8 @@
       "is_passthrough" : false,
       "cache_timeout_seconds" : 0,
       "metadata_timeout_seconds" : 86400,
-      "proxy_port" : 0,
+      "proxy_port" : 8090,
+      "proxy_host" : "http://test.proxy.com",
       "prefetch_priority" : 0,
       "prefetch_rescan" : false,
       "prefetch_listing_type" : "html"

@@ -17,7 +17,7 @@
 
 import React from "react";
 import {MemoryRouter, Route, Routes} from 'react-router-dom';
-import {render, screen, cleanup, waitFor, within} from '@testing-library/react';
+import {render, screen, cleanup, waitFor} from '@testing-library/react';
 import '@testing-library/jest-dom';
 import fetchMock from "fetch-mock";
 import GroupView from "./GroupView.jsx";

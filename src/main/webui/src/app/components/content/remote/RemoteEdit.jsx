@@ -29,46 +29,6 @@ import {PATTERNS} from "../../ComponentConstants.js";
 
 const {storeRes, disableRes} = IndyRest;
 
-const CertificateSection = ({store, register}) => <div className="sub-fields">
-  {
-    store.useAuth &&
-    <div className="detail-field">
-      <label>Client Key Password:</label>
-      <input type="password" defaultValue={store.key_password} {...register("key_password")} /><Hint hintKey="client_key" />
-    </div>
-  }
-    <div className="fieldset two-col">
-      {
-        store.useAuth &&
-        <div className="left-col">
-          <div className="textarea-label">
-            <label>Client Key</label><span className="hint">(PEM Format)</span>
-          </div>
-          {
-            // 64 columns is the original PEM line-length spec
-          }
-          <textarea className="cert" cols="68" defaultValue={store.key_certificate_pem} {...register("key_certificate_pem")}>
-          </textarea>
-        </div>
-      }
-      <div className="right-col">
-        <div className="textarea-label">
-          <label>Server Certificate</label><span className="hint">(PEM Format)</span>
-        </div>
-        {
-          // 64 columns is the original PEM line-length spec
-        }
-        <textarea className="cert" cols="68" defaultValue={store.server_certificate_pem} {...register("server_certificate_pem")}>
-        </textarea>
-      </div>
-    </div>
-</div>;
-
-CertificateSection.propTypes = {
-  store: PropTypes.object.isRequired,
-  register: PropTypes.func
-};
-
 export default function RemoteEdit() {
   const [state, setState] = useState({
     store: {},
@@ -119,9 +79,9 @@ export default function RemoteEdit() {
             store: raw
           });
           reset(raw);
-          setUseProxy(storeView.useProxy);
-          setUseAuth(storeView.useAuth);
-          setUseX509(storeView.useX509);
+          setUseProxy(cloned.useProxy);
+          setUseAuth(cloned.useAuth);
+          setUseX509(cloned.useX509);
         }else{
           // TODO: find another way to do error handling
           Utils.logMessage(`Failed to get store data. Error reason: ${res.error.status}->${res.error.message}`);
@@ -132,8 +92,10 @@ export default function RemoteEdit() {
     }
   }, [packageType, name, mode, reset]);
 
+  let storeView = {};
   if (mode === 'edit'){
     store = state.store;
+    storeView = state.storeView;
   }
 
   const handleUseProxy = event=>{
@@ -290,7 +252,7 @@ export default function RemoteEdit() {
             // HTTP Proxy
           }
           <div className="detail-field">
-            <input type="checkbox" defaultChecked={useProxy} onChange={e=>handleUseProxy(e)} />{' '}
+            <input type="checkbox" defaultChecked={storeView.useProxy} onChange={e=>handleUseProxy(e)} />{' '}
             <label>Use Proxy?</label>
           </div>
           {
@@ -310,7 +272,7 @@ export default function RemoteEdit() {
             // X.509 / auth
           }
           <div className="detail-field">
-            <input type="checkbox" defaultChecked={useAuth} onChange={e=>handleUseAuth(e)} />{' '}
+            <input type="checkbox" defaultChecked={storeView.useAuth} onChange={e=>handleUseAuth(e)} />{' '}
             <label>Use Authentication?</label>
           </div>
           {
@@ -322,7 +284,7 @@ export default function RemoteEdit() {
               </div>
               <div className="detail-field">
                 <label>Password:</label>
-                <input type="password" size="25" defaultValue={store.password} {...register("password")} />
+                <input type="password" size="25" role="password" defaultValue={store.password} {...register("password")} />
               </div>
               {
                 store.use_proxy && <React.Fragment>
@@ -332,18 +294,51 @@ export default function RemoteEdit() {
                 </div>
                 <div className="detail-field">
                   <label>Proxy Password:</label>
-                  <input type="password" size="20" defaultValue={store.proxy_password} {...register("proxy_password")} />
+                  <input type="password" role="password" size="20" defaultValue={store.proxy_password} {...register("proxy_password")} />
                 </div>
               </React.Fragment>
               }
             </div>
           }
           <div className="detail-field">
-            <input type="checkbox" defaultChecked={useX509} onChange={e=>handleUseX509(e)} />{' '}
+            <input type="checkbox" defaultChecked={storeView.useX509} onChange={e=>handleUseX509(e)} />{' '}
             <label>{`Use Custom X.509 Configuration?`}</label>
           </div>
           {
-            useX509 && <CertificateSection store={store} register={register} />
+            useX509 && <div className="sub-fields">
+            {
+              useAuth &&
+              <div className="detail-field">
+                <label>Client Key Password:</label>
+                <input type="password" role="password" defaultValue={store.key_password} {...register("key_password")} /><Hint hintKey="client_key" />
+              </div>
+            }
+              <div className="fieldset two-col">
+                {
+                  useAuth &&
+                  <div className="left-col">
+                    <div className="textarea-label">
+                      <label>Client Key</label><span className="hint">(PEM Format)</span>
+                    </div>
+                    {
+                      // 64 columns is the original PEM line-length spec
+                    }
+                    <textarea className="cert" cols="68" defaultValue={store.key_certificate_pem} {...register("key_certificate_pem")}>
+                    </textarea>
+                  </div>
+                }
+                <div className="right-col">
+                  <div className="textarea-label">
+                    <label>Server Certificate</label><span className="hint">(PEM Format)</span>
+                  </div>
+                  {
+                    // 64 columns is the original PEM line-length spec
+                  }
+                  <textarea className="cert" cols="68" defaultValue={store.server_certificate_pem} {...register("server_certificate_pem")}>
+                  </textarea>
+                </div>
+              </div>
+          </div>
           }
         </div>
       </div>
