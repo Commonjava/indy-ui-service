@@ -7,6 +7,14 @@ quarkus:
     port: 8080
     read-timeout: 30m
     enable-compression: true
+    compress-media-types:
+      - text/html
+      - text/plain
+      - text/xml
+      - text/css
+      - text/javascript
+      - application/javascript
+      - application/json
     limits:
       max-body-size: 1000M
     auth:
@@ -56,7 +64,7 @@ quarkus:
     enabled: true
   log:
     level: INFO
-    min-level: TRACE
+    # min-level: DEBUG  # Comment because this is build time config, let's use default value
     category:
       "org.jboss":
         level: WARN
