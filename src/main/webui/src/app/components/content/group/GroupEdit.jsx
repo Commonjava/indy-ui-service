@@ -147,10 +147,14 @@ EditConstituents.propTypes = {
 
 export default function GroupEdit() {
   const [store, setStore] = useState({"type": "group", "constituents": []});
-  const [available, setAvailable] = useState([]);
+  const [state, setState] = useState({
+    available: [],
+    nextPage: ''
+  });
   const location = useLocation();
   const {packageType, name} = useParams();
-  const [avaiLoading, setAvaiLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState("");
   const {
     register,
     reset,
@@ -164,20 +168,26 @@ export default function GroupEdit() {
   useEffect(() => {
     const pkgType = mode === "edit" ? packageType : "all";
     const fetchAvailable = async () => {
-      setAvaiLoading(true);
+      setLoading(true);
       // get available Store data
-      const availableRes = await storeQueryRes.getEndpoints(pkgType);
+      const availableRes = await storeQueryRes.getEndpoints(pkgType, page);
       let allAvailable = new Set();
+      let nextAvailablePage = "";
       if (availableRes.success) {
         let availableResult = availableRes.result.items;
+
+        if (availableRes.result.hasOwnProperty("next_page")) {
+          nextAvailablePage = availableRes.result.next_page;
+        }
+        
         availableResult.forEach(item => {
           allAvailable.add(item.packageType + ':' + item.type + ':' + item.name);
         });
       } else {
         Utils.logMessage(`Getting available constituents failed! Error reason: ${availableRes.error.message}`);
       }
-      setAvaiLoading(false);
-      return allAvailable;
+      setLoading(false);
+      return {available: allAvailable, nextPage: nextAvailablePage};
     };
 
     if (mode === 'edit') {
@@ -188,7 +198,8 @@ export default function GroupEdit() {
           const raw = res.result;
           const storeView = Utils.cloneObj(raw);
           storeView.disabled = raw.disabled === undefined ? false : raw.disabled;
-          let allAvailable = await fetchAvailable();
+          let newState = await fetchAvailable();
+          let allAvailable = newState.available;
           raw.constituents.forEach(item => allAvailable.delete(item));
           allAvailable.delete(raw.key);
           // get Store disablement data
@@ -200,9 +211,10 @@ export default function GroupEdit() {
           } else {
             Utils.logMessage(`disable timeout getting failed! Error reason: ${timeoutRes.error.message}`);
           }
+          newState.available = [...state.available, ...Array.from(allAvailable)];
           // Change state and re-rendering
           setStore(raw);
-          setAvailable(Array.from(allAvailable));
+          setState(newState);
           reset(raw);
         } else {
           // TODO: find another way to do error handling
@@ -215,11 +227,11 @@ export default function GroupEdit() {
 
     if (mode === "new") {
       (async () => {
-        let allAvailable = await fetchAvailable();
-        setAvailable(Array.from(allAvailable));
+        let newState = await fetchAvailable();
+        setState(newState);
       })();
     }
-  }, [packageType, name, mode, reset]);
+  }, [packageType, name, mode, reset, page]);
 
   const updatePackageType = newPackageType => {
     let newStore = store;
@@ -294,9 +306,9 @@ export default function GroupEdit() {
           </div>
           <div className="fieldset-caption">Constituents</div>
           {
-           avaiLoading?
+           loading?
             <LoadingSpiner /> :
-            <EditConstituents store={store} currentAvailable={available} />
+            <EditConstituents store={store} currentAvailable={state.available} />
           }
         </div>
       </div>
