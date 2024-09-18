@@ -20,7 +20,7 @@
   <parent>
     <groupId>org.commonjava</groupId>
     <artifactId>service-parent</artifactId>
-    <version>5-SNAPSHOT</version>
+    <version>5</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.commonjava.indy.service</groupId>
@@ -42,7 +42,7 @@
     <apiVersion>1</apiVersion>
     <projectEmail>https://github.com/Commonjava/indy-ui-service</projectEmail>
 
-    <indysecurity.verison>1.2-SNAPSHOT</indysecurity.verison>
+    <indysecurity.verison>1.3</indysecurity.verison>
     
     <skipTests>false</skipTests>
     <plugin.jacoco.skip>false</plugin.jacoco.skip>
