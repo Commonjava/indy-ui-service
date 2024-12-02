@@ -109,14 +109,19 @@ const decideMockListFile = (packgeType, type) => {
 // For store listing
 app.get(`${STORE_API_BASE}/:packageType/:type`, async (req, res) => {
   await sleep(2000);
-  const [pkgType, type] = [req.params.packageType, req.params.type];
+  const [pkgType, type, page] = [req.params.packageType, req.params.type, req.query.page];
   if(pkgType==="_all"){
     // TODO: do all packageType for type handling here
   }
   const mockFile = decideMockListFile(pkgType, type);
   if(existsSync(mockFile)){
     const list = require(mockFile);
-    res.status(200).json(list);
+    if (page === undefined) {
+      res.status(200).json(list[0]);
+    } else {
+      const result = list.find(item=>item.current_page===page);
+      res.status(200).json(result);
+    }
   }else{
     res.status(404).json({error: "No such stores!"});
   }

@@ -1,1840 +1,1867 @@
-{
-  "items" : [
-    {
-      "packageType": "maven",
-      "name": "build_org-keycloak-keycloak-parent-4-x_20180515.1724",
-      "type": "group",
-      "key": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180515.1724",
-      "storeKey": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180515.1724",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/maven/group/build_org-keycloak-keycloak-parent-4-x_20180515.1724"
-    },
-    {
-      "packageType": "maven",
-      "name": "build_org-keycloak-keycloak-parent-4-x_20180531.0218",
-      "type": "group",
-      "key": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180531.0218",
-      "storeKey": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180531.0218",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/maven/group/build_org-keycloak-keycloak-parent-4-x_20180531.0218"
-    },
-    {
-      "packageType": "maven",
-      "name": "build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216",
-      "type": "group",
-      "key": "maven:group:build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216",
-      "storeKey": "maven:group:build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/maven/group/build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216"
-    },
-    {
-      "packageType": "maven",
-      "name": "build_vertx-infinispan-3-5-1_20180705.1313",
-      "type": "group",
-      "key": "maven:group:build_vertx-infinispan-3-5-1_20180705.1313",
-      "storeKey": "maven:group:build_vertx-infinispan-3-5-1_20180705.1313",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/maven/group/build_vertx-infinispan-3-5-1_20180705.1313"
-    },
-    {
-      "packageType": "maven",
-      "name": "public",
-      "type": "group",
-      "key": "maven:group:public",
-      "storeKey": "maven:group:public",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/maven/group/public"
-    },
-    {
-      "packageType": "maven",
-      "name": "FisZYfNgpR",
-      "type": "hosted",
-      "key": "maven:hosted:FisZYfNgpR",
-      "storeKey": "maven:hosted:FisZYfNgpR",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/maven/hosted/FisZYfNgpR"
-    },
-    {
-      "packageType": "maven",
-      "name": "tYMtROxQUA",
-      "type": "hosted",
-      "key": "maven:hosted:tYMtROxQUA",
-      "storeKey": "maven:hosted:tYMtROxQUA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/maven/hosted/tYMtROxQUA"
-    },
-    {
-      "packageType": "maven",
-      "name": "LYnrVCMAZP",
-      "type": "hosted",
-      "key": "maven:hosted:LYnrVCMAZP",
-      "storeKey": "maven:hosted:LYnrVCMAZP",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/maven/hosted/LYnrVCMAZP"
-    },
-    {
-      "packageType": "maven",
-      "name": "build_kie-soup_20180628.0657",
-      "type": "hosted",
-      "key": "maven:hosted:build_kie-soup_20180628.0657",
-      "storeKey": "maven:hosted:build_kie-soup_20180628.0657",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/maven/hosted/build_kie-soup_20180628.0657"
-    },
-    {
-      "packageType": "maven",
-      "name": "central",
-      "type": "remote",
-      "key": "maven:remote:central",
-      "storeKey": "maven:remote:central",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/central"
-    },
-    {
-      "packageType": "maven",
-      "name": "i-maven-restlet-4",
-      "type": "remote",
-      "key": "maven:remote:i-maven-restlet-4",
-      "storeKey": "maven:remote:i-maven-restlet-4",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/i-maven-restlet-4"
-    },
-    {
-      "packageType": "maven",
-      "name": "mrrc-ga",
-      "type": "remote",
-      "key": "maven:remote:mrrc-ga",
-      "storeKey": "maven:remote:mrrc-ga",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/mrrc-ga"
-    },
-    {
-      "packageType": "maven",
-      "name": "repo.eclipse.org",
-      "type": "remote",
-      "key": "maven:remote:repo.eclipse.org",
-      "storeKey": "maven:remote:repo.eclipse.org",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/repo.eclipse.org"
-    },
-    {
-      "packageType": "maven",
-      "name": "microprofile.repo.eclipse.org",
-      "type": "remote",
-      "key": "maven:remote:microprofile.repo.eclipse.org",
-      "storeKey": "maven:remote:microprofile.repo.eclipse.org",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/microprofile.repo.eclipse.org"
-    },
-    {
-      "packageType": "maven",
-      "name": "japidiff",
-      "type": "remote",
-      "key": "maven:remote:japidiff",
-      "storeKey": "maven:remote:japidiff",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/japidiff"
-    },
-    {
-      "packageType": "maven",
-      "name": "spring-plugins-snapshot",
-      "type": "remote",
-      "key": "maven:remote:spring-plugins-snapshot",
-      "storeKey": "maven:remote:spring-plugins-snapshot",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/spring-plugins-snapshot"
-    },
-    {
-      "packageType": "maven",
-      "name": "sonatype-snapshots",
-      "type": "remote",
-      "key": "maven:remote:sonatype-snapshots",
-      "storeKey": "maven:remote:sonatype-snapshots",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/sonatype-snapshots"
-    },
-    {
-      "packageType": "maven",
-      "name": "snapshots",
-      "type": "remote",
-      "key": "maven:remote:snapshots",
-      "storeKey": "maven:remote:snapshots",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/snapshots"
-    },
-    {
-      "packageType": "maven",
-      "name": "apache.snapshots",
-      "type": "remote",
-      "key": "maven:remote:apache.snapshots",
-      "storeKey": "maven:remote:apache.snapshots",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/apache.snapshots"
-    },
-    {
-      "packageType": "maven",
-      "name": "repository.jboss.com",
-      "type": "remote",
-      "key": "maven:remote:repository.jboss.com",
-      "storeKey": "maven:remote:repository.jboss.com",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/repository.jboss.com"
-    },
-    {
-      "packageType": "maven",
-      "name": "eclipse.m2",
-      "type": "remote",
-      "key": "maven:remote:eclipse.m2",
-      "storeKey": "maven:remote:eclipse.m2",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/eclipse.m2"
-    },
-    {
-      "packageType": "maven",
-      "name": "snmp4j.repo",
-      "type": "remote",
-      "key": "maven:remote:snmp4j.repo",
-      "storeKey": "maven:remote:snmp4j.repo",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/maven/remote/snmp4j.repo"
-    },
-    {
-      "packageType": "npm",
-      "name": "DA-temporary-builds",
-      "type": "group",
-      "key": "npm:group:DA-temporary-builds",
-      "storeKey": "npm:group:DA-temporary-builds",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/DA-temporary-builds"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-172077677927211008",
-      "type": "group",
-      "key": "npm:group:build-172077677927211008",
-      "storeKey": "npm:group:build-172077677927211008",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/build-172077677927211008"
-    },
-    {
-      "packageType": "npm",
-      "name": "DA",
-      "type": "group",
-      "key": "npm:group:DA",
-      "storeKey": "npm:group:DA",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/DA"
-    },
-    {
-      "packageType": "npm",
-      "name": "builds-untested+shared-imports",
-      "type": "group",
-      "key": "npm:group:builds-untested+shared-imports",
-      "storeKey": "npm:group:builds-untested+shared-imports",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/builds-untested+shared-imports"
-    },
-    {
-      "packageType": "npm",
-      "name": "builds-untested+shared-imports+public",
-      "type": "group",
-      "key": "npm:group:builds-untested+shared-imports+public",
-      "storeKey": "npm:group:builds-untested+shared-imports+public",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/builds-untested+shared-imports+public"
-    },
-    {
-      "packageType": "npm",
-      "name": "DApublic",
-      "type": "group",
-      "key": "npm:group:DApublic",
-      "storeKey": "npm:group:DApublic",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/DApublic"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4RWJFXAWIAAA",
-      "type": "group",
-      "key": "npm:group:build-A4RWJFXAWIAAA",
-      "storeKey": "npm:group:build-A4RWJFXAWIAAA",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/build-A4RWJFXAWIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "public",
-      "type": "group",
-      "key": "npm:group:public",
-      "storeKey": "npm:group:public",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/public"
-    },
-    {
-      "packageType": "npm",
-      "name": "shared-imports+public",
-      "type": "group",
-      "key": "npm:group:shared-imports+public",
-      "storeKey": "npm:group:shared-imports+public",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/shared-imports+public"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4SLH57TGIAAA",
-      "type": "group",
-      "key": "npm:group:build-A4SLH57TGIAAA",
-      "storeKey": "npm:group:build-A4SLH57TGIAAA",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/build-A4SLH57TGIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "temporary-builds",
-      "type": "group",
-      "key": "npm:group:temporary-builds",
-      "storeKey": "npm:group:temporary-builds",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/temporary-builds"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-175689795468152832",
-      "type": "group",
-      "key": "npm:group:build-175689795468152832",
-      "storeKey": "npm:group:build-175689795468152832",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/build-175689795468152832"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-175645950118350848",
-      "type": "group",
-      "key": "npm:group:build-175645950118350848",
-      "storeKey": "npm:group:build-175645950118350848",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/build-175645950118350848"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4SLDYLJGIAAA",
-      "type": "group",
-      "key": "npm:group:build-A4SLDYLJGIAAA",
-      "storeKey": "npm:group:build-A4SLDYLJGIAAA",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/build-A4SLDYLJGIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "shared-imports+yarn-public",
-      "type": "group",
-      "key": "npm:group:shared-imports+yarn-public",
-      "storeKey": "npm:group:shared-imports+yarn-public",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/shared-imports+yarn-public"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-172056280052015104",
-      "type": "group",
-      "key": "npm:group:build-172056280052015104",
-      "storeKey": "npm:group:build-172056280052015104",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/build-172056280052015104"
-    },
-    {
-      "packageType": "npm",
-      "name": "builds-untested",
-      "type": "group",
-      "key": "npm:group:builds-untested",
-      "storeKey": "npm:group:builds-untested",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/builds-untested"
-    },
-    {
-      "packageType": "npm",
-      "name": "yarn-public",
-      "type": "group",
-      "key": "npm:group:yarn-public",
-      "storeKey": "npm:group:yarn-public",
-      "storeType": "group",
-      "resource_uri": "http://localhost:4000/api/content/npm/group/yarn-public"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1039",
-      "type": "hosted",
-      "key": "npm:hosted:build-1039",
-      "storeKey": "npm:hosted:build-1039",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1039"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1545",
-      "type": "hosted",
-      "key": "npm:hosted:build-1545",
-      "storeKey": "npm:hosted:build-1545",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1545"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ARH4LMNVUVQAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ARH4LMNVUVQAA",
-      "storeKey": "npm:hosted:build-ARH4LMNVUVQAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ARH4LMNVUVQAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATMXTBCK2JIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATMXTBCK2JIAA",
-      "storeKey": "npm:hosted:build-ATMXTBCK2JIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMXTBCK2JIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATKLVX3EKJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATKLVX3EKJIAA",
-      "storeKey": "npm:hosted:build-ATKLVX3EKJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLVX3EKJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1751",
-      "type": "hosted",
-      "key": "npm:hosted:build-1751",
-      "storeKey": "npm:hosted:build-1751",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1751"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-172056280052015104",
-      "type": "hosted",
-      "key": "npm:hosted:build-172056280052015104",
-      "storeKey": "npm:hosted:build-172056280052015104",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-172056280052015104"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATIPTNJS4TIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATIPTNJS4TIAA",
-      "storeKey": "npm:hosted:build-ATIPTNJS4TIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATIPTNJS4TIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4RWJFXAWIAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-A4RWJFXAWIAAA",
-      "storeKey": "npm:hosted:build-A4RWJFXAWIAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4RWJFXAWIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1318",
-      "type": "hosted",
-      "key": "npm:hosted:build-1318",
-      "storeKey": "npm:hosted:build-1318",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1318"
-    },
-    {
-      "packageType": "npm",
-      "name": "shared-imports",
-      "type": "hosted",
-      "key": "npm:hosted:shared-imports",
-      "storeKey": "npm:hosted:shared-imports",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/shared-imports"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJMS5VM2JIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJMS5VM2JIAA",
-      "storeKey": "npm:hosted:build-ATJMS5VM2JIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJMS5VM2JIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJVTFPY2JIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJVTFPY2JIAA",
-      "storeKey": "npm:hosted:build-ATJVTFPY2JIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVTFPY2JIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1892",
-      "type": "hosted",
-      "key": "npm:hosted:build-1892",
-      "storeKey": "npm:hosted:build-1892",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1892"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSJXFPXWUIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSJXFPXWUIAA",
-      "storeKey": "npm:hosted:build-ANSJXFPXWUIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJXFPXWUIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATM6LQ22CJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATM6LQ22CJIAA",
-      "storeKey": "npm:hosted:build-ATM6LQ22CJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATM6LQ22CJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJEAVIZYHIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJEAVIZYHIAA",
-      "storeKey": "npm:hosted:build-ATJEAVIZYHIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJEAVIZYHIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANW6HFU3Y3AAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANW6HFU3Y3AAA",
-      "storeKey": "npm:hosted:build-ANW6HFU3Y3AAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANW6HFU3Y3AAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4SK7ID3WIAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-A4SK7ID3WIAAA",
-      "storeKey": "npm:hosted:build-A4SK7ID3WIAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4SK7ID3WIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ASJNWOAV2MQAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ASJNWOAV2MQAA",
-      "storeKey": "npm:hosted:build-ASJNWOAV2MQAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ASJNWOAV2MQAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-177728051542118400",
-      "type": "hosted",
-      "key": "npm:hosted:build-177728051542118400",
-      "storeKey": "npm:hosted:build-177728051542118400",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-177728051542118400"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ASE5VFCHXYIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ASE5VFCHXYIAA",
-      "storeKey": "npm:hosted:build-ASE5VFCHXYIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ASE5VFCHXYIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1915",
-      "type": "hosted",
-      "key": "npm:hosted:build-1915",
-      "storeKey": "npm:hosted:build-1915",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1915"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-AUS2H4JNNWIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-AUS2H4JNNWIAA",
-      "storeKey": "npm:hosted:build-AUS2H4JNNWIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AUS2H4JNNWIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1726",
-      "type": "hosted",
-      "key": "npm:hosted:build-1726",
-      "storeKey": "npm:hosted:build-1726",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1726"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1393",
-      "type": "hosted",
-      "key": "npm:hosted:build-1393",
-      "storeKey": "npm:hosted:build-1393",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1393"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1918",
-      "type": "hosted",
-      "key": "npm:hosted:build-1918",
-      "storeKey": "npm:hosted:build-1918",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1918"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSHZIJ2WUIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSHZIJ2WUIAA",
-      "storeKey": "npm:hosted:build-ANSHZIJ2WUIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSHZIJ2WUIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSC3XNBIJYAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSC3XNBIJYAA",
-      "storeKey": "npm:hosted:build-ANSC3XNBIJYAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSC3XNBIJYAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATKLTMUYKJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATKLTMUYKJIAA",
-      "storeKey": "npm:hosted:build-ATKLTMUYKJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLTMUYKJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJVZRQA2JIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJVZRQA2JIAA",
-      "storeKey": "npm:hosted:build-ATJVZRQA2JIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVZRQA2JIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSDID7VAJYAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSDID7VAJYAA",
-      "storeKey": "npm:hosted:build-ANSDID7VAJYAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDID7VAJYAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1753",
-      "type": "hosted",
-      "key": "npm:hosted:build-1753",
-      "storeKey": "npm:hosted:build-1753",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1753"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANWPAJ33IEQAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANWPAJ33IEQAA",
-      "storeKey": "npm:hosted:build-ANWPAJ33IEQAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANWPAJ33IEQAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATSAZTZKHQAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATSAZTZKHQAAA",
-      "storeKey": "npm:hosted:build-ATSAZTZKHQAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATSAZTZKHQAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1325",
-      "type": "hosted",
-      "key": "npm:hosted:build-1325",
-      "storeKey": "npm:hosted:build-1325",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1325"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1403",
-      "type": "hosted",
-      "key": "npm:hosted:build-1403",
-      "storeKey": "npm:hosted:build-1403",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1403"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1908",
-      "type": "hosted",
-      "key": "npm:hosted:build-1908",
-      "storeKey": "npm:hosted:build-1908",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1908"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATMXX5UNCJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATMXX5UNCJIAA",
-      "storeKey": "npm:hosted:build-ATMXX5UNCJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMXX5UNCJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJVZHAOSJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJVZHAOSJIAA",
-      "storeKey": "npm:hosted:build-ATJVZHAOSJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVZHAOSJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATKLN4KE2JIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATKLN4KE2JIAA",
-      "storeKey": "npm:hosted:build-ATKLN4KE2JIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLN4KE2JIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJBPKAUIHIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJBPKAUIHIAA",
-      "storeKey": "npm:hosted:build-ATJBPKAUIHIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJBPKAUIHIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-AUSSLL6X5WIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-AUSSLL6X5WIAA",
-      "storeKey": "npm:hosted:build-AUSSLL6X5WIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AUSSLL6X5WIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJV3HRICJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJV3HRICJIAA",
-      "storeKey": "npm:hosted:build-ATJV3HRICJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJV3HRICJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1725",
-      "type": "hosted",
-      "key": "npm:hosted:build-1725",
-      "storeKey": "npm:hosted:build-1725",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1725"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-162851312008671232",
-      "type": "hosted",
-      "key": "npm:hosted:build-162851312008671232",
-      "storeKey": "npm:hosted:build-162851312008671232",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-162851312008671232"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATIMRBRAMTIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATIMRBRAMTIAA",
-      "storeKey": "npm:hosted:build-ATIMRBRAMTIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATIMRBRAMTIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1255",
-      "type": "hosted",
-      "key": "npm:hosted:build-1255",
-      "storeKey": "npm:hosted:build-1255",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1255"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1471",
-      "type": "hosted",
-      "key": "npm:hosted:build-1471",
-      "storeKey": "npm:hosted:build-1471",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1471"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1537",
-      "type": "hosted",
-      "key": "npm:hosted:build-1537",
-      "storeKey": "npm:hosted:build-1537",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1537"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRDMIQY7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRDMIQY7QAA",
-      "storeKey": "npm:hosted:build-ALNRDMIQY7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRDMIQY7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSJXYBWOUIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSJXYBWOUIAA",
-      "storeKey": "npm:hosted:build-ANSJXYBWOUIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJXYBWOUIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-850",
-      "type": "hosted",
-      "key": "npm:hosted:build-850",
-      "storeKey": "npm:hosted:build-850",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-850"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSJYI4V6UIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSJYI4V6UIAA",
-      "storeKey": "npm:hosted:build-ANSJYI4V6UIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJYI4V6UIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJVU4NKCJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJVU4NKCJIAA",
-      "storeKey": "npm:hosted:build-ATJVU4NKCJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVU4NKCJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1081",
-      "type": "hosted",
-      "key": "npm:hosted:build-1081",
-      "storeKey": "npm:hosted:build-1081",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1081"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATSAH55UPQAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATSAH55UPQAAA",
-      "storeKey": "npm:hosted:build-ATSAH55UPQAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATSAH55UPQAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1961",
-      "type": "hosted",
-      "key": "npm:hosted:build-1961",
-      "storeKey": "npm:hosted:build-1961",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1961"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1302",
-      "type": "hosted",
-      "key": "npm:hosted:build-1302",
-      "storeKey": "npm:hosted:build-1302",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1302"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1714",
-      "type": "hosted",
-      "key": "npm:hosted:build-1714",
-      "storeKey": "npm:hosted:build-1714",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1714"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1780",
-      "type": "hosted",
-      "key": "npm:hosted:build-1780",
-      "storeKey": "npm:hosted:build-1780",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1780"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1397",
-      "type": "hosted",
-      "key": "npm:hosted:build-1397",
-      "storeKey": "npm:hosted:build-1397",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1397"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1007",
-      "type": "hosted",
-      "key": "npm:hosted:build-1007",
-      "storeKey": "npm:hosted:build-1007",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1007"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1128",
-      "type": "hosted",
-      "key": "npm:hosted:build-1128",
-      "storeKey": "npm:hosted:build-1128",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1128"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-174864544753614848",
-      "type": "hosted",
-      "key": "npm:hosted:build-174864544753614848",
-      "storeKey": "npm:hosted:build-174864544753614848",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-174864544753614848"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1309",
-      "type": "hosted",
-      "key": "npm:hosted:build-1309",
-      "storeKey": "npm:hosted:build-1309",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1309"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATI7SHYMQHIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATI7SHYMQHIAA",
-      "storeKey": "npm:hosted:build-ATI7SHYMQHIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATI7SHYMQHIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRRNKMA7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRRNKMA7QAA",
-      "storeKey": "npm:hosted:build-ALNRRNKMA7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRRNKMA7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1788",
-      "type": "hosted",
-      "key": "npm:hosted:build-1788",
-      "storeKey": "npm:hosted:build-1788",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1788"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATKLUBI5KJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATKLUBI5KJIAA",
-      "storeKey": "npm:hosted:build-ATKLUBI5KJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLUBI5KJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATMUGZX4KJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATMUGZX4KJIAA",
-      "storeKey": "npm:hosted:build-ATMUGZX4KJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMUGZX4KJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4RWOQJKGIAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-A4RWOQJKGIAAA",
-      "storeKey": "npm:hosted:build-A4RWOQJKGIAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4RWOQJKGIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATKLPKQC2JIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATKLPKQC2JIAA",
-      "storeKey": "npm:hosted:build-ATKLPKQC2JIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLPKQC2JIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1791",
-      "type": "hosted",
-      "key": "npm:hosted:build-1791",
-      "storeKey": "npm:hosted:build-1791",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1791"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1300",
-      "type": "hosted",
-      "key": "npm:hosted:build-1300",
-      "storeKey": "npm:hosted:build-1300",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1300"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANWONZKHYEQAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANWONZKHYEQAA",
-      "storeKey": "npm:hosted:build-ANWONZKHYEQAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANWONZKHYEQAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATSCG6OIXQAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATSCG6OIXQAAA",
-      "storeKey": "npm:hosted:build-ATSCG6OIXQAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATSCG6OIXQAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-815",
-      "type": "hosted",
-      "key": "npm:hosted:build-815",
-      "storeKey": "npm:hosted:build-815",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-815"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATI7SK7FAHIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATI7SK7FAHIAA",
-      "storeKey": "npm:hosted:build-ATI7SK7FAHIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATI7SK7FAHIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-898",
-      "type": "hosted",
-      "key": "npm:hosted:build-898",
-      "storeKey": "npm:hosted:build-898",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-898"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSDHMTDYJYAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSDHMTDYJYAA",
-      "storeKey": "npm:hosted:build-ANSDHMTDYJYAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDHMTDYJYAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1321",
-      "type": "hosted",
-      "key": "npm:hosted:build-1321",
-      "storeKey": "npm:hosted:build-1321",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1321"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJVTBYBSJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJVTBYBSJIAA",
-      "storeKey": "npm:hosted:build-ATJVTBYBSJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVTBYBSJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1080",
-      "type": "hosted",
-      "key": "npm:hosted:build-1080",
-      "storeKey": "npm:hosted:build-1080",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1080"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-AVWZQUIFB7YAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-AVWZQUIFB7YAA",
-      "storeKey": "npm:hosted:build-AVWZQUIFB7YAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AVWZQUIFB7YAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATRRSYMTXQAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATRRSYMTXQAAA",
-      "storeKey": "npm:hosted:build-ATRRSYMTXQAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATRRSYMTXQAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4SLDYLJGIAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-A4SLDYLJGIAAA",
-      "storeKey": "npm:hosted:build-A4SLDYLJGIAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4SLDYLJGIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRJQYOA7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRJQYOA7QAA",
-      "storeKey": "npm:hosted:build-ALNRJQYOA7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRJQYOA7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRIIWSY7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRIIWSY7QAA",
-      "storeKey": "npm:hosted:build-ALNRIIWSY7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRIIWSY7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1588",
-      "type": "hosted",
-      "key": "npm:hosted:build-1588",
-      "storeKey": "npm:hosted:build-1588",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1588"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1888",
-      "type": "hosted",
-      "key": "npm:hosted:build-1888",
-      "storeKey": "npm:hosted:build-1888",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1888"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1768",
-      "type": "hosted",
-      "key": "npm:hosted:build-1768",
-      "storeKey": "npm:hosted:build-1768",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1768"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATERVB5IMBIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATERVB5IMBIAA",
-      "storeKey": "npm:hosted:build-ATERVB5IMBIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATERVB5IMBIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1777",
-      "type": "hosted",
-      "key": "npm:hosted:build-1777",
-      "storeKey": "npm:hosted:build-1777",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1777"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-177141949236137984",
-      "type": "hosted",
-      "key": "npm:hosted:build-177141949236137984",
-      "storeKey": "npm:hosted:build-177141949236137984",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-177141949236137984"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1201",
-      "type": "hosted",
-      "key": "npm:hosted:build-1201",
-      "storeKey": "npm:hosted:build-1201",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1201"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATKLNQ54CJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATKLNQ54CJIAA",
-      "storeKey": "npm:hosted:build-ATKLNQ54CJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLNQ54CJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1349",
-      "type": "hosted",
-      "key": "npm:hosted:build-1349",
-      "storeKey": "npm:hosted:build-1349",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1349"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-899",
-      "type": "hosted",
-      "key": "npm:hosted:build-899",
-      "storeKey": "npm:hosted:build-899",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-899"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNQ7FCSA7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNQ7FCSA7QAA",
-      "storeKey": "npm:hosted:build-ALNQ7FCSA7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNQ7FCSA7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRN7GQA7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRN7GQA7QAA",
-      "storeKey": "npm:hosted:build-ALNRN7GQA7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRN7GQA7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1940",
-      "type": "hosted",
-      "key": "npm:hosted:build-1940",
-      "storeKey": "npm:hosted:build-1940",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1940"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-AVWYYBKEB7YAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-AVWYYBKEB7YAA",
-      "storeKey": "npm:hosted:build-AVWYYBKEB7YAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AVWYYBKEB7YAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1746",
-      "type": "hosted",
-      "key": "npm:hosted:build-1746",
-      "storeKey": "npm:hosted:build-1746",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1746"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNZBOJ6XEAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNZBOJ6XEAAA",
-      "storeKey": "npm:hosted:build-ALNZBOJ6XEAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNZBOJ6XEAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-175002848044564480",
-      "type": "hosted",
-      "key": "npm:hosted:build-175002848044564480",
-      "storeKey": "npm:hosted:build-175002848044564480",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-175002848044564480"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1723",
-      "type": "hosted",
-      "key": "npm:hosted:build-1723",
-      "storeKey": "npm:hosted:build-1723",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1723"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJ2HX732JIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJ2HX732JIAA",
-      "storeKey": "npm:hosted:build-ATJ2HX732JIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJ2HX732JIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATKLQVNBSJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATKLQVNBSJIAA",
-      "storeKey": "npm:hosted:build-ATKLQVNBSJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLQVNBSJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRYNBKI7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRYNBKI7QAA",
-      "storeKey": "npm:hosted:build-ALNRYNBKI7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRYNBKI7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-826",
-      "type": "hosted",
-      "key": "npm:hosted:build-826",
-      "storeKey": "npm:hosted:build-826",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-826"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-172293563091640320",
-      "type": "hosted",
-      "key": "npm:hosted:build-172293563091640320",
-      "storeKey": "npm:hosted:build-172293563091640320",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-172293563091640320"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1755",
-      "type": "hosted",
-      "key": "npm:hosted:build-1755",
-      "storeKey": "npm:hosted:build-1755",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1755"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-AY7DGR2EPHAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-AY7DGR2EPHAAA",
-      "storeKey": "npm:hosted:build-AY7DGR2EPHAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AY7DGR2EPHAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "pnc-builds",
-      "type": "hosted",
-      "key": "npm:hosted:pnc-builds",
-      "storeKey": "npm:hosted:pnc-builds",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/pnc-builds"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1160",
-      "type": "hosted",
-      "key": "npm:hosted:build-1160",
-      "storeKey": "npm:hosted:build-1160",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1160"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1715",
-      "type": "hosted",
-      "key": "npm:hosted:build-1715",
-      "storeKey": "npm:hosted:build-1715",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1715"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-A4SLH57TGIAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-A4SLH57TGIAAA",
-      "storeKey": "npm:hosted:build-A4SLH57TGIAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4SLH57TGIAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALN37FAJ6DQAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALN37FAJ6DQAA",
-      "storeKey": "npm:hosted:build-ALN37FAJ6DQAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALN37FAJ6DQAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1200",
-      "type": "hosted",
-      "key": "npm:hosted:build-1200",
-      "storeKey": "npm:hosted:build-1200",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1200"
-    },
-    {
-      "packageType": "npm",
-      "name": "temporary-builds",
-      "type": "hosted",
-      "key": "npm:hosted:temporary-builds",
-      "storeKey": "npm:hosted:temporary-builds",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/temporary-builds"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1287",
-      "type": "hosted",
-      "key": "npm:hosted:build-1287",
-      "storeKey": "npm:hosted:build-1287",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1287"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1189",
-      "type": "hosted",
-      "key": "npm:hosted:build-1189",
-      "storeKey": "npm:hosted:build-1189",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1189"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNZDFZSHEAAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNZDFZSHEAAA",
-      "storeKey": "npm:hosted:build-ALNZDFZSHEAAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNZDFZSHEAAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-infinispan-js-client",
-      "type": "hosted",
-      "key": "npm:hosted:build-infinispan-js-client",
-      "storeKey": "npm:hosted:build-infinispan-js-client",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-infinispan-js-client"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1742",
-      "type": "hosted",
-      "key": "npm:hosted:build-1742",
-      "storeKey": "npm:hosted:build-1742",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1742"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1030",
-      "type": "hosted",
-      "key": "npm:hosted:build-1030",
-      "storeKey": "npm:hosted:build-1030",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1030"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSIHDLHGUIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSIHDLHGUIAA",
-      "storeKey": "npm:hosted:build-ANSIHDLHGUIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSIHDLHGUIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1770",
-      "type": "hosted",
-      "key": "npm:hosted:build-1770",
-      "storeKey": "npm:hosted:build-1770",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1770"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSJWTPYOUIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSJWTPYOUIAA",
-      "storeKey": "npm:hosted:build-ANSJWTPYOUIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJWTPYOUIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1400",
-      "type": "hosted",
-      "key": "npm:hosted:build-1400",
-      "storeKey": "npm:hosted:build-1400",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1400"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1526",
-      "type": "hosted",
-      "key": "npm:hosted:build-1526",
-      "storeKey": "npm:hosted:build-1526",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1526"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-172077677927211008",
-      "type": "hosted",
-      "key": "npm:hosted:build-172077677927211008",
-      "storeKey": "npm:hosted:build-172077677927211008",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-172077677927211008"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-590",
-      "type": "hosted",
-      "key": "npm:hosted:build-590",
-      "storeKey": "npm:hosted:build-590",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-590"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1728",
-      "type": "hosted",
-      "key": "npm:hosted:build-1728",
-      "storeKey": "npm:hosted:build-1728",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1728"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRSR4LQ7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRSR4LQ7QAA",
-      "storeKey": "npm:hosted:build-ALNRSR4LQ7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRSR4LQ7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSDJOOKAJYAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSDJOOKAJYAA",
-      "storeKey": "npm:hosted:build-ANSDJOOKAJYAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDJOOKAJYAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1745",
-      "type": "hosted",
-      "key": "npm:hosted:build-1745",
-      "storeKey": "npm:hosted:build-1745",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1745"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRWOK2I7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRWOK2I7QAA",
-      "storeKey": "npm:hosted:build-ALNRWOK2I7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRWOK2I7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1832",
-      "type": "hosted",
-      "key": "npm:hosted:build-1832",
-      "storeKey": "npm:hosted:build-1832",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1832"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1774",
-      "type": "hosted",
-      "key": "npm:hosted:build-1774",
-      "storeKey": "npm:hosted:build-1774",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1774"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1036",
-      "type": "hosted",
-      "key": "npm:hosted:build-1036",
-      "storeKey": "npm:hosted:build-1036",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1036"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1402",
-      "type": "hosted",
-      "key": "npm:hosted:build-1402",
-      "storeKey": "npm:hosted:build-1402",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1402"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1957",
-      "type": "hosted",
-      "key": "npm:hosted:build-1957",
-      "storeKey": "npm:hosted:build-1957",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1957"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1747",
-      "type": "hosted",
-      "key": "npm:hosted:build-1747",
-      "storeKey": "npm:hosted:build-1747",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1747"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATI7OKHBYHIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATI7OKHBYHIAA",
-      "storeKey": "npm:hosted:build-ATI7OKHBYHIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATI7OKHBYHIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-831",
-      "type": "hosted",
-      "key": "npm:hosted:build-831",
-      "storeKey": "npm:hosted:build-831",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-831"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1716",
-      "type": "hosted",
-      "key": "npm:hosted:build-1716",
-      "storeKey": "npm:hosted:build-1716",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1716"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1086",
-      "type": "hosted",
-      "key": "npm:hosted:build-1086",
-      "storeKey": "npm:hosted:build-1086",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1086"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATM6P7AOSJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATM6P7AOSJIAA",
-      "storeKey": "npm:hosted:build-ATM6P7AOSJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATM6P7AOSJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1916",
-      "type": "hosted",
-      "key": "npm:hosted:build-1916",
-      "storeKey": "npm:hosted:build-1916",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1916"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJMWZV2SJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJMWZV2SJIAA",
-      "storeKey": "npm:hosted:build-ATJMWZV2SJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJMWZV2SJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJL6BNJKJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJL6BNJKJIAA",
-      "storeKey": "npm:hosted:build-ATJL6BNJKJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJL6BNJKJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ALNRLW24Y7QAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ALNRLW24Y7QAA",
-      "storeKey": "npm:hosted:build-ALNRLW24Y7QAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRLW24Y7QAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-175716749567217664",
-      "type": "hosted",
-      "key": "npm:hosted:build-175716749567217664",
-      "storeKey": "npm:hosted:build-175716749567217664",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-175716749567217664"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJCSYAPAHIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJCSYAPAHIAA",
-      "storeKey": "npm:hosted:build-ATJCSYAPAHIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJCSYAPAHIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ANSDI2U7QJYAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ANSDI2U7QJYAA",
-      "storeKey": "npm:hosted:build-ANSDI2U7QJYAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDI2U7QJYAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-1914",
-      "type": "hosted",
-      "key": "npm:hosted:build-1914",
-      "storeKey": "npm:hosted:build-1914",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1914"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATJVVTBOKJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATJVVTBOKJIAA",
-      "storeKey": "npm:hosted:build-ATJVVTBOKJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVVTBOKJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-ATMVKBEFCJIAA",
-      "type": "hosted",
-      "key": "npm:hosted:build-ATMVKBEFCJIAA",
-      "storeKey": "npm:hosted:build-ATMVKBEFCJIAA",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMVKBEFCJIAA"
-    },
-    {
-      "packageType": "npm",
-      "name": "build-175699223500181504",
-      "type": "hosted",
-      "key": "npm:hosted:build-175699223500181504",
-      "storeKey": "npm:hosted:build-175699223500181504",
-      "storeType": "hosted",
-      "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-175699223500181504"
-    },
-    {
-      "packageType": "npm",
-      "name": "test-npmjs",
-      "type": "remote",
-      "key": "npm:remote:test-npmjs",
-      "storeKey": "npm:remote:test-npmjs",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/npm/remote/test-npmjs"
-    },
-    {
-      "packageType": "npm",
-      "name": "yarnpkg",
-      "type": "remote",
-      "key": "npm:remote:yarnpkg",
-      "storeKey": "npm:remote:yarnpkg",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/npm/remote/yarnpkg"
-    },
-    {
-      "packageType": "npm",
-      "name": "npmjs",
-      "type": "remote",
-      "key": "npm:remote:npmjs",
-      "storeKey": "npm:remote:npmjs",
-      "storeType": "remote",
-      "resource_uri": "http://localhost:4000/api/content/npm/remote/npmjs"
-    }
-  ]
-}
+[
+  {
+    "current_page": "page1",
+    "next_page": "page2",
+    "items": [
+      {
+        "packageType": "maven",
+        "name": "build_org-keycloak-keycloak-parent-4-x_20180515.1724",
+        "type": "group",
+        "key": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180515.1724",
+        "storeKey": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180515.1724",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/maven/group/build_org-keycloak-keycloak-parent-4-x_20180515.1724"
+      },
+      {
+        "packageType": "maven",
+        "name": "build_org-keycloak-keycloak-parent-4-x_20180531.0218",
+        "type": "group",
+        "key": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180531.0218",
+        "storeKey": "maven:group:build_org-keycloak-keycloak-parent-4-x_20180531.0218",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/maven/group/build_org-keycloak-keycloak-parent-4-x_20180531.0218"
+      },
+      {
+        "packageType": "maven",
+        "name": "build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216",
+        "type": "group",
+        "key": "maven:group:build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216",
+        "storeKey": "maven:group:build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/maven/group/build_org-keycloak-keycloak-nodejs-auth-utils-3-xnpm_1-2-stage-4_20180104.1216"
+      },
+      {
+        "packageType": "maven",
+        "name": "build_vertx-infinispan-3-5-1_20180705.1313",
+        "type": "group",
+        "key": "maven:group:build_vertx-infinispan-3-5-1_20180705.1313",
+        "storeKey": "maven:group:build_vertx-infinispan-3-5-1_20180705.1313",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/maven/group/build_vertx-infinispan-3-5-1_20180705.1313"
+      },
+      {
+        "packageType": "maven",
+        "name": "public",
+        "type": "group",
+        "key": "maven:group:public",
+        "storeKey": "maven:group:public",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/maven/group/public"
+      },
+      {
+        "packageType": "maven",
+        "name": "FisZYfNgpR",
+        "type": "hosted",
+        "key": "maven:hosted:FisZYfNgpR",
+        "storeKey": "maven:hosted:FisZYfNgpR",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/maven/hosted/FisZYfNgpR"
+      },
+      {
+        "packageType": "maven",
+        "name": "tYMtROxQUA",
+        "type": "hosted",
+        "key": "maven:hosted:tYMtROxQUA",
+        "storeKey": "maven:hosted:tYMtROxQUA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/maven/hosted/tYMtROxQUA"
+      },
+      {
+        "packageType": "maven",
+        "name": "LYnrVCMAZP",
+        "type": "hosted",
+        "key": "maven:hosted:LYnrVCMAZP",
+        "storeKey": "maven:hosted:LYnrVCMAZP",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/maven/hosted/LYnrVCMAZP"
+      },
+      {
+        "packageType": "maven",
+        "name": "build_kie-soup_20180628.0657",
+        "type": "hosted",
+        "key": "maven:hosted:build_kie-soup_20180628.0657",
+        "storeKey": "maven:hosted:build_kie-soup_20180628.0657",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/maven/hosted/build_kie-soup_20180628.0657"
+      },
+      {
+        "packageType": "maven",
+        "name": "central",
+        "type": "remote",
+        "key": "maven:remote:central",
+        "storeKey": "maven:remote:central",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/central"
+      }
+    ]
+  },
+  {
+    "current_page": "page2",
+    "next_page": "page3",
+    "items": [
+      {
+        "packageType": "maven",
+        "name": "i-maven-restlet-4",
+        "type": "remote",
+        "key": "maven:remote:i-maven-restlet-4",
+        "storeKey": "maven:remote:i-maven-restlet-4",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/i-maven-restlet-4"
+      },
+      {
+        "packageType": "maven",
+        "name": "mrrc-ga",
+        "type": "remote",
+        "key": "maven:remote:mrrc-ga",
+        "storeKey": "maven:remote:mrrc-ga",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/mrrc-ga"
+      },
+      {
+        "packageType": "maven",
+        "name": "repo.eclipse.org",
+        "type": "remote",
+        "key": "maven:remote:repo.eclipse.org",
+        "storeKey": "maven:remote:repo.eclipse.org",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/repo.eclipse.org"
+      },
+      {
+        "packageType": "maven",
+        "name": "microprofile.repo.eclipse.org",
+        "type": "remote",
+        "key": "maven:remote:microprofile.repo.eclipse.org",
+        "storeKey": "maven:remote:microprofile.repo.eclipse.org",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/microprofile.repo.eclipse.org"
+      },
+      {
+        "packageType": "maven",
+        "name": "japidiff",
+        "type": "remote",
+        "key": "maven:remote:japidiff",
+        "storeKey": "maven:remote:japidiff",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/japidiff"
+      },
+      {
+        "packageType": "maven",
+        "name": "spring-plugins-snapshot",
+        "type": "remote",
+        "key": "maven:remote:spring-plugins-snapshot",
+        "storeKey": "maven:remote:spring-plugins-snapshot",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/spring-plugins-snapshot"
+      },
+      {
+        "packageType": "maven",
+        "name": "sonatype-snapshots",
+        "type": "remote",
+        "key": "maven:remote:sonatype-snapshots",
+        "storeKey": "maven:remote:sonatype-snapshots",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/sonatype-snapshots"
+      },
+      {
+        "packageType": "maven",
+        "name": "snapshots",
+        "type": "remote",
+        "key": "maven:remote:snapshots",
+        "storeKey": "maven:remote:snapshots",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/snapshots"
+      },
+      {
+        "packageType": "maven",
+        "name": "apache.snapshots",
+        "type": "remote",
+        "key": "maven:remote:apache.snapshots",
+        "storeKey": "maven:remote:apache.snapshots",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/apache.snapshots"
+      }
+    ]
+  },
+  {
+    "current_page": "page3",
+    "next_page": "page4",
+    "items": [
+      {
+        "packageType": "maven",
+        "name": "repository.jboss.com",
+        "type": "remote",
+        "key": "maven:remote:repository.jboss.com",
+        "storeKey": "maven:remote:repository.jboss.com",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/repository.jboss.com"
+      },
+      {
+        "packageType": "maven",
+        "name": "eclipse.m2",
+        "type": "remote",
+        "key": "maven:remote:eclipse.m2",
+        "storeKey": "maven:remote:eclipse.m2",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/eclipse.m2"
+      },
+      {
+        "packageType": "maven",
+        "name": "snmp4j.repo",
+        "type": "remote",
+        "key": "maven:remote:snmp4j.repo",
+        "storeKey": "maven:remote:snmp4j.repo",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/maven/remote/snmp4j.repo"
+      },
+      {
+        "packageType": "npm",
+        "name": "DA-temporary-builds",
+        "type": "group",
+        "key": "npm:group:DA-temporary-builds",
+        "storeKey": "npm:group:DA-temporary-builds",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/DA-temporary-builds"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-172077677927211008",
+        "type": "group",
+        "key": "npm:group:build-172077677927211008",
+        "storeKey": "npm:group:build-172077677927211008",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/build-172077677927211008"
+      },
+      {
+        "packageType": "npm",
+        "name": "DA",
+        "type": "group",
+        "key": "npm:group:DA",
+        "storeKey": "npm:group:DA",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/DA"
+      },
+      {
+        "packageType": "npm",
+        "name": "builds-untested+shared-imports",
+        "type": "group",
+        "key": "npm:group:builds-untested+shared-imports",
+        "storeKey": "npm:group:builds-untested+shared-imports",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/builds-untested+shared-imports"
+      },
+      {
+        "packageType": "npm",
+        "name": "builds-untested+shared-imports+public",
+        "type": "group",
+        "key": "npm:group:builds-untested+shared-imports+public",
+        "storeKey": "npm:group:builds-untested+shared-imports+public",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/builds-untested+shared-imports+public"
+      },
+      {
+        "packageType": "npm",
+        "name": "DApublic",
+        "type": "group",
+        "key": "npm:group:DApublic",
+        "storeKey": "npm:group:DApublic",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/DApublic"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4RWJFXAWIAAA",
+        "type": "group",
+        "key": "npm:group:build-A4RWJFXAWIAAA",
+        "storeKey": "npm:group:build-A4RWJFXAWIAAA",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/build-A4RWJFXAWIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "public",
+        "type": "group",
+        "key": "npm:group:public",
+        "storeKey": "npm:group:public",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/public"
+      },
+      {
+        "packageType": "npm",
+        "name": "shared-imports+public",
+        "type": "group",
+        "key": "npm:group:shared-imports+public",
+        "storeKey": "npm:group:shared-imports+public",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/shared-imports+public"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4SLH57TGIAAA",
+        "type": "group",
+        "key": "npm:group:build-A4SLH57TGIAAA",
+        "storeKey": "npm:group:build-A4SLH57TGIAAA",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/build-A4SLH57TGIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "temporary-builds",
+        "type": "group",
+        "key": "npm:group:temporary-builds",
+        "storeKey": "npm:group:temporary-builds",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/temporary-builds"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-175689795468152832",
+        "type": "group",
+        "key": "npm:group:build-175689795468152832",
+        "storeKey": "npm:group:build-175689795468152832",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/build-175689795468152832"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-175645950118350848",
+        "type": "group",
+        "key": "npm:group:build-175645950118350848",
+        "storeKey": "npm:group:build-175645950118350848",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/build-175645950118350848"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4SLDYLJGIAAA",
+        "type": "group",
+        "key": "npm:group:build-A4SLDYLJGIAAA",
+        "storeKey": "npm:group:build-A4SLDYLJGIAAA",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/build-A4SLDYLJGIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "shared-imports+yarn-public",
+        "type": "group",
+        "key": "npm:group:shared-imports+yarn-public",
+        "storeKey": "npm:group:shared-imports+yarn-public",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/shared-imports+yarn-public"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-172056280052015104",
+        "type": "group",
+        "key": "npm:group:build-172056280052015104",
+        "storeKey": "npm:group:build-172056280052015104",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/build-172056280052015104"
+      },
+      {
+        "packageType": "npm",
+        "name": "builds-untested",
+        "type": "group",
+        "key": "npm:group:builds-untested",
+        "storeKey": "npm:group:builds-untested",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/builds-untested"
+      }
+    ]
+  },
+  {
+    "current_page": "page4",
+    "next_page": "page5",
+    "items": [
+      {
+        "packageType": "npm",
+        "name": "yarn-public",
+        "type": "group",
+        "key": "npm:group:yarn-public",
+        "storeKey": "npm:group:yarn-public",
+        "storeType": "group",
+        "resource_uri": "http://localhost:4000/api/content/npm/group/yarn-public"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1039",
+        "type": "hosted",
+        "key": "npm:hosted:build-1039",
+        "storeKey": "npm:hosted:build-1039",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1039"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1545",
+        "type": "hosted",
+        "key": "npm:hosted:build-1545",
+        "storeKey": "npm:hosted:build-1545",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1545"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ARH4LMNVUVQAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ARH4LMNVUVQAA",
+        "storeKey": "npm:hosted:build-ARH4LMNVUVQAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ARH4LMNVUVQAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATMXTBCK2JIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATMXTBCK2JIAA",
+        "storeKey": "npm:hosted:build-ATMXTBCK2JIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMXTBCK2JIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATKLVX3EKJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATKLVX3EKJIAA",
+        "storeKey": "npm:hosted:build-ATKLVX3EKJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLVX3EKJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1751",
+        "type": "hosted",
+        "key": "npm:hosted:build-1751",
+        "storeKey": "npm:hosted:build-1751",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1751"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-172056280052015104",
+        "type": "hosted",
+        "key": "npm:hosted:build-172056280052015104",
+        "storeKey": "npm:hosted:build-172056280052015104",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-172056280052015104"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATIPTNJS4TIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATIPTNJS4TIAA",
+        "storeKey": "npm:hosted:build-ATIPTNJS4TIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATIPTNJS4TIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4RWJFXAWIAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-A4RWJFXAWIAAA",
+        "storeKey": "npm:hosted:build-A4RWJFXAWIAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4RWJFXAWIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1318",
+        "type": "hosted",
+        "key": "npm:hosted:build-1318",
+        "storeKey": "npm:hosted:build-1318",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1318"
+      },
+      {
+        "packageType": "npm",
+        "name": "shared-imports",
+        "type": "hosted",
+        "key": "npm:hosted:shared-imports",
+        "storeKey": "npm:hosted:shared-imports",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/shared-imports"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJMS5VM2JIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJMS5VM2JIAA",
+        "storeKey": "npm:hosted:build-ATJMS5VM2JIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJMS5VM2JIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJVTFPY2JIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJVTFPY2JIAA",
+        "storeKey": "npm:hosted:build-ATJVTFPY2JIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVTFPY2JIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1892",
+        "type": "hosted",
+        "key": "npm:hosted:build-1892",
+        "storeKey": "npm:hosted:build-1892",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1892"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSJXFPXWUIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSJXFPXWUIAA",
+        "storeKey": "npm:hosted:build-ANSJXFPXWUIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJXFPXWUIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATM6LQ22CJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATM6LQ22CJIAA",
+        "storeKey": "npm:hosted:build-ATM6LQ22CJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATM6LQ22CJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJEAVIZYHIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJEAVIZYHIAA",
+        "storeKey": "npm:hosted:build-ATJEAVIZYHIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJEAVIZYHIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANW6HFU3Y3AAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANW6HFU3Y3AAA",
+        "storeKey": "npm:hosted:build-ANW6HFU3Y3AAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANW6HFU3Y3AAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4SK7ID3WIAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-A4SK7ID3WIAAA",
+        "storeKey": "npm:hosted:build-A4SK7ID3WIAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4SK7ID3WIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ASJNWOAV2MQAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ASJNWOAV2MQAA",
+        "storeKey": "npm:hosted:build-ASJNWOAV2MQAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ASJNWOAV2MQAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-177728051542118400",
+        "type": "hosted",
+        "key": "npm:hosted:build-177728051542118400",
+        "storeKey": "npm:hosted:build-177728051542118400",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-177728051542118400"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ASE5VFCHXYIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ASE5VFCHXYIAA",
+        "storeKey": "npm:hosted:build-ASE5VFCHXYIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ASE5VFCHXYIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1915",
+        "type": "hosted",
+        "key": "npm:hosted:build-1915",
+        "storeKey": "npm:hosted:build-1915",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1915"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-AUS2H4JNNWIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-AUS2H4JNNWIAA",
+        "storeKey": "npm:hosted:build-AUS2H4JNNWIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AUS2H4JNNWIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1726",
+        "type": "hosted",
+        "key": "npm:hosted:build-1726",
+        "storeKey": "npm:hosted:build-1726",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1726"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1393",
+        "type": "hosted",
+        "key": "npm:hosted:build-1393",
+        "storeKey": "npm:hosted:build-1393",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1393"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1918",
+        "type": "hosted",
+        "key": "npm:hosted:build-1918",
+        "storeKey": "npm:hosted:build-1918",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1918"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSHZIJ2WUIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSHZIJ2WUIAA",
+        "storeKey": "npm:hosted:build-ANSHZIJ2WUIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSHZIJ2WUIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSC3XNBIJYAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSC3XNBIJYAA",
+        "storeKey": "npm:hosted:build-ANSC3XNBIJYAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSC3XNBIJYAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATKLTMUYKJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATKLTMUYKJIAA",
+        "storeKey": "npm:hosted:build-ATKLTMUYKJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLTMUYKJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJVZRQA2JIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJVZRQA2JIAA",
+        "storeKey": "npm:hosted:build-ATJVZRQA2JIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVZRQA2JIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSDID7VAJYAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSDID7VAJYAA",
+        "storeKey": "npm:hosted:build-ANSDID7VAJYAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDID7VAJYAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1753",
+        "type": "hosted",
+        "key": "npm:hosted:build-1753",
+        "storeKey": "npm:hosted:build-1753",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1753"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANWPAJ33IEQAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANWPAJ33IEQAA",
+        "storeKey": "npm:hosted:build-ANWPAJ33IEQAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANWPAJ33IEQAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATSAZTZKHQAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATSAZTZKHQAAA",
+        "storeKey": "npm:hosted:build-ATSAZTZKHQAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATSAZTZKHQAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1325",
+        "type": "hosted",
+        "key": "npm:hosted:build-1325",
+        "storeKey": "npm:hosted:build-1325",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1325"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1403",
+        "type": "hosted",
+        "key": "npm:hosted:build-1403",
+        "storeKey": "npm:hosted:build-1403",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1403"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1908",
+        "type": "hosted",
+        "key": "npm:hosted:build-1908",
+        "storeKey": "npm:hosted:build-1908",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1908"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATMXX5UNCJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATMXX5UNCJIAA",
+        "storeKey": "npm:hosted:build-ATMXX5UNCJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMXX5UNCJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJVZHAOSJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJVZHAOSJIAA",
+        "storeKey": "npm:hosted:build-ATJVZHAOSJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVZHAOSJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATKLN4KE2JIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATKLN4KE2JIAA",
+        "storeKey": "npm:hosted:build-ATKLN4KE2JIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLN4KE2JIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJBPKAUIHIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJBPKAUIHIAA",
+        "storeKey": "npm:hosted:build-ATJBPKAUIHIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJBPKAUIHIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-AUSSLL6X5WIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-AUSSLL6X5WIAA",
+        "storeKey": "npm:hosted:build-AUSSLL6X5WIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AUSSLL6X5WIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJV3HRICJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJV3HRICJIAA",
+        "storeKey": "npm:hosted:build-ATJV3HRICJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJV3HRICJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1725",
+        "type": "hosted",
+        "key": "npm:hosted:build-1725",
+        "storeKey": "npm:hosted:build-1725",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1725"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-162851312008671232",
+        "type": "hosted",
+        "key": "npm:hosted:build-162851312008671232",
+        "storeKey": "npm:hosted:build-162851312008671232",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-162851312008671232"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATIMRBRAMTIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATIMRBRAMTIAA",
+        "storeKey": "npm:hosted:build-ATIMRBRAMTIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATIMRBRAMTIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1255",
+        "type": "hosted",
+        "key": "npm:hosted:build-1255",
+        "storeKey": "npm:hosted:build-1255",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1255"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1471",
+        "type": "hosted",
+        "key": "npm:hosted:build-1471",
+        "storeKey": "npm:hosted:build-1471",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1471"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1537",
+        "type": "hosted",
+        "key": "npm:hosted:build-1537",
+        "storeKey": "npm:hosted:build-1537",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1537"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRDMIQY7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRDMIQY7QAA",
+        "storeKey": "npm:hosted:build-ALNRDMIQY7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRDMIQY7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSJXYBWOUIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSJXYBWOUIAA",
+        "storeKey": "npm:hosted:build-ANSJXYBWOUIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJXYBWOUIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-850",
+        "type": "hosted",
+        "key": "npm:hosted:build-850",
+        "storeKey": "npm:hosted:build-850",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-850"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSJYI4V6UIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSJYI4V6UIAA",
+        "storeKey": "npm:hosted:build-ANSJYI4V6UIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJYI4V6UIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJVU4NKCJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJVU4NKCJIAA",
+        "storeKey": "npm:hosted:build-ATJVU4NKCJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVU4NKCJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1081",
+        "type": "hosted",
+        "key": "npm:hosted:build-1081",
+        "storeKey": "npm:hosted:build-1081",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1081"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATSAH55UPQAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATSAH55UPQAAA",
+        "storeKey": "npm:hosted:build-ATSAH55UPQAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATSAH55UPQAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1961",
+        "type": "hosted",
+        "key": "npm:hosted:build-1961",
+        "storeKey": "npm:hosted:build-1961",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1961"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1302",
+        "type": "hosted",
+        "key": "npm:hosted:build-1302",
+        "storeKey": "npm:hosted:build-1302",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1302"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1714",
+        "type": "hosted",
+        "key": "npm:hosted:build-1714",
+        "storeKey": "npm:hosted:build-1714",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1714"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1780",
+        "type": "hosted",
+        "key": "npm:hosted:build-1780",
+        "storeKey": "npm:hosted:build-1780",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1780"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1397",
+        "type": "hosted",
+        "key": "npm:hosted:build-1397",
+        "storeKey": "npm:hosted:build-1397",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1397"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1007",
+        "type": "hosted",
+        "key": "npm:hosted:build-1007",
+        "storeKey": "npm:hosted:build-1007",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1007"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1128",
+        "type": "hosted",
+        "key": "npm:hosted:build-1128",
+        "storeKey": "npm:hosted:build-1128",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1128"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-174864544753614848",
+        "type": "hosted",
+        "key": "npm:hosted:build-174864544753614848",
+        "storeKey": "npm:hosted:build-174864544753614848",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-174864544753614848"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1309",
+        "type": "hosted",
+        "key": "npm:hosted:build-1309",
+        "storeKey": "npm:hosted:build-1309",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1309"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATI7SHYMQHIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATI7SHYMQHIAA",
+        "storeKey": "npm:hosted:build-ATI7SHYMQHIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATI7SHYMQHIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRRNKMA7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRRNKMA7QAA",
+        "storeKey": "npm:hosted:build-ALNRRNKMA7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRRNKMA7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1788",
+        "type": "hosted",
+        "key": "npm:hosted:build-1788",
+        "storeKey": "npm:hosted:build-1788",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1788"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATKLUBI5KJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATKLUBI5KJIAA",
+        "storeKey": "npm:hosted:build-ATKLUBI5KJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLUBI5KJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATMUGZX4KJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATMUGZX4KJIAA",
+        "storeKey": "npm:hosted:build-ATMUGZX4KJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMUGZX4KJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4RWOQJKGIAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-A4RWOQJKGIAAA",
+        "storeKey": "npm:hosted:build-A4RWOQJKGIAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4RWOQJKGIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATKLPKQC2JIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATKLPKQC2JIAA",
+        "storeKey": "npm:hosted:build-ATKLPKQC2JIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLPKQC2JIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1791",
+        "type": "hosted",
+        "key": "npm:hosted:build-1791",
+        "storeKey": "npm:hosted:build-1791",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1791"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1300",
+        "type": "hosted",
+        "key": "npm:hosted:build-1300",
+        "storeKey": "npm:hosted:build-1300",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1300"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANWONZKHYEQAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANWONZKHYEQAA",
+        "storeKey": "npm:hosted:build-ANWONZKHYEQAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANWONZKHYEQAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATSCG6OIXQAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATSCG6OIXQAAA",
+        "storeKey": "npm:hosted:build-ATSCG6OIXQAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATSCG6OIXQAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-815",
+        "type": "hosted",
+        "key": "npm:hosted:build-815",
+        "storeKey": "npm:hosted:build-815",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-815"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATI7SK7FAHIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATI7SK7FAHIAA",
+        "storeKey": "npm:hosted:build-ATI7SK7FAHIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATI7SK7FAHIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-898",
+        "type": "hosted",
+        "key": "npm:hosted:build-898",
+        "storeKey": "npm:hosted:build-898",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-898"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSDHMTDYJYAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSDHMTDYJYAA",
+        "storeKey": "npm:hosted:build-ANSDHMTDYJYAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDHMTDYJYAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1321",
+        "type": "hosted",
+        "key": "npm:hosted:build-1321",
+        "storeKey": "npm:hosted:build-1321",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1321"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJVTBYBSJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJVTBYBSJIAA",
+        "storeKey": "npm:hosted:build-ATJVTBYBSJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVTBYBSJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1080",
+        "type": "hosted",
+        "key": "npm:hosted:build-1080",
+        "storeKey": "npm:hosted:build-1080",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1080"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-AVWZQUIFB7YAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-AVWZQUIFB7YAA",
+        "storeKey": "npm:hosted:build-AVWZQUIFB7YAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AVWZQUIFB7YAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATRRSYMTXQAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATRRSYMTXQAAA",
+        "storeKey": "npm:hosted:build-ATRRSYMTXQAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATRRSYMTXQAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4SLDYLJGIAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-A4SLDYLJGIAAA",
+        "storeKey": "npm:hosted:build-A4SLDYLJGIAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4SLDYLJGIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRJQYOA7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRJQYOA7QAA",
+        "storeKey": "npm:hosted:build-ALNRJQYOA7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRJQYOA7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRIIWSY7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRIIWSY7QAA",
+        "storeKey": "npm:hosted:build-ALNRIIWSY7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRIIWSY7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1588",
+        "type": "hosted",
+        "key": "npm:hosted:build-1588",
+        "storeKey": "npm:hosted:build-1588",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1588"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1888",
+        "type": "hosted",
+        "key": "npm:hosted:build-1888",
+        "storeKey": "npm:hosted:build-1888",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1888"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1768",
+        "type": "hosted",
+        "key": "npm:hosted:build-1768",
+        "storeKey": "npm:hosted:build-1768",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1768"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATERVB5IMBIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATERVB5IMBIAA",
+        "storeKey": "npm:hosted:build-ATERVB5IMBIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATERVB5IMBIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1777",
+        "type": "hosted",
+        "key": "npm:hosted:build-1777",
+        "storeKey": "npm:hosted:build-1777",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1777"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-177141949236137984",
+        "type": "hosted",
+        "key": "npm:hosted:build-177141949236137984",
+        "storeKey": "npm:hosted:build-177141949236137984",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-177141949236137984"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1201",
+        "type": "hosted",
+        "key": "npm:hosted:build-1201",
+        "storeKey": "npm:hosted:build-1201",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1201"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATKLNQ54CJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATKLNQ54CJIAA",
+        "storeKey": "npm:hosted:build-ATKLNQ54CJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLNQ54CJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1349",
+        "type": "hosted",
+        "key": "npm:hosted:build-1349",
+        "storeKey": "npm:hosted:build-1349",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1349"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-899",
+        "type": "hosted",
+        "key": "npm:hosted:build-899",
+        "storeKey": "npm:hosted:build-899",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-899"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNQ7FCSA7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNQ7FCSA7QAA",
+        "storeKey": "npm:hosted:build-ALNQ7FCSA7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNQ7FCSA7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRN7GQA7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRN7GQA7QAA",
+        "storeKey": "npm:hosted:build-ALNRN7GQA7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRN7GQA7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1940",
+        "type": "hosted",
+        "key": "npm:hosted:build-1940",
+        "storeKey": "npm:hosted:build-1940",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1940"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-AVWYYBKEB7YAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-AVWYYBKEB7YAA",
+        "storeKey": "npm:hosted:build-AVWYYBKEB7YAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AVWYYBKEB7YAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1746",
+        "type": "hosted",
+        "key": "npm:hosted:build-1746",
+        "storeKey": "npm:hosted:build-1746",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1746"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNZBOJ6XEAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNZBOJ6XEAAA",
+        "storeKey": "npm:hosted:build-ALNZBOJ6XEAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNZBOJ6XEAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-175002848044564480",
+        "type": "hosted",
+        "key": "npm:hosted:build-175002848044564480",
+        "storeKey": "npm:hosted:build-175002848044564480",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-175002848044564480"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1723",
+        "type": "hosted",
+        "key": "npm:hosted:build-1723",
+        "storeKey": "npm:hosted:build-1723",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1723"
+      }
+    ]
+  },
+  {
+    "current_page": "page5",
+    "items": [
+      {
+        "packageType": "npm",
+        "name": "build-ATJ2HX732JIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJ2HX732JIAA",
+        "storeKey": "npm:hosted:build-ATJ2HX732JIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJ2HX732JIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATKLQVNBSJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATKLQVNBSJIAA",
+        "storeKey": "npm:hosted:build-ATKLQVNBSJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATKLQVNBSJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRYNBKI7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRYNBKI7QAA",
+        "storeKey": "npm:hosted:build-ALNRYNBKI7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRYNBKI7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-826",
+        "type": "hosted",
+        "key": "npm:hosted:build-826",
+        "storeKey": "npm:hosted:build-826",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-826"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-172293563091640320",
+        "type": "hosted",
+        "key": "npm:hosted:build-172293563091640320",
+        "storeKey": "npm:hosted:build-172293563091640320",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-172293563091640320"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1755",
+        "type": "hosted",
+        "key": "npm:hosted:build-1755",
+        "storeKey": "npm:hosted:build-1755",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1755"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-AY7DGR2EPHAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-AY7DGR2EPHAAA",
+        "storeKey": "npm:hosted:build-AY7DGR2EPHAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-AY7DGR2EPHAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "pnc-builds",
+        "type": "hosted",
+        "key": "npm:hosted:pnc-builds",
+        "storeKey": "npm:hosted:pnc-builds",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/pnc-builds"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1160",
+        "type": "hosted",
+        "key": "npm:hosted:build-1160",
+        "storeKey": "npm:hosted:build-1160",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1160"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1715",
+        "type": "hosted",
+        "key": "npm:hosted:build-1715",
+        "storeKey": "npm:hosted:build-1715",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1715"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-A4SLH57TGIAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-A4SLH57TGIAAA",
+        "storeKey": "npm:hosted:build-A4SLH57TGIAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-A4SLH57TGIAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALN37FAJ6DQAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALN37FAJ6DQAA",
+        "storeKey": "npm:hosted:build-ALN37FAJ6DQAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALN37FAJ6DQAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1200",
+        "type": "hosted",
+        "key": "npm:hosted:build-1200",
+        "storeKey": "npm:hosted:build-1200",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1200"
+      },
+      {
+        "packageType": "npm",
+        "name": "temporary-builds",
+        "type": "hosted",
+        "key": "npm:hosted:temporary-builds",
+        "storeKey": "npm:hosted:temporary-builds",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/temporary-builds"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1287",
+        "type": "hosted",
+        "key": "npm:hosted:build-1287",
+        "storeKey": "npm:hosted:build-1287",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1287"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1189",
+        "type": "hosted",
+        "key": "npm:hosted:build-1189",
+        "storeKey": "npm:hosted:build-1189",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1189"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNZDFZSHEAAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNZDFZSHEAAA",
+        "storeKey": "npm:hosted:build-ALNZDFZSHEAAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNZDFZSHEAAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-infinispan-js-client",
+        "type": "hosted",
+        "key": "npm:hosted:build-infinispan-js-client",
+        "storeKey": "npm:hosted:build-infinispan-js-client",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-infinispan-js-client"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1742",
+        "type": "hosted",
+        "key": "npm:hosted:build-1742",
+        "storeKey": "npm:hosted:build-1742",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1742"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1030",
+        "type": "hosted",
+        "key": "npm:hosted:build-1030",
+        "storeKey": "npm:hosted:build-1030",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1030"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSIHDLHGUIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSIHDLHGUIAA",
+        "storeKey": "npm:hosted:build-ANSIHDLHGUIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSIHDLHGUIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1770",
+        "type": "hosted",
+        "key": "npm:hosted:build-1770",
+        "storeKey": "npm:hosted:build-1770",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1770"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSJWTPYOUIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSJWTPYOUIAA",
+        "storeKey": "npm:hosted:build-ANSJWTPYOUIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSJWTPYOUIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1400",
+        "type": "hosted",
+        "key": "npm:hosted:build-1400",
+        "storeKey": "npm:hosted:build-1400",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1400"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1526",
+        "type": "hosted",
+        "key": "npm:hosted:build-1526",
+        "storeKey": "npm:hosted:build-1526",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1526"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-172077677927211008",
+        "type": "hosted",
+        "key": "npm:hosted:build-172077677927211008",
+        "storeKey": "npm:hosted:build-172077677927211008",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-172077677927211008"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-590",
+        "type": "hosted",
+        "key": "npm:hosted:build-590",
+        "storeKey": "npm:hosted:build-590",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-590"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1728",
+        "type": "hosted",
+        "key": "npm:hosted:build-1728",
+        "storeKey": "npm:hosted:build-1728",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1728"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRSR4LQ7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRSR4LQ7QAA",
+        "storeKey": "npm:hosted:build-ALNRSR4LQ7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRSR4LQ7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSDJOOKAJYAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSDJOOKAJYAA",
+        "storeKey": "npm:hosted:build-ANSDJOOKAJYAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDJOOKAJYAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1745",
+        "type": "hosted",
+        "key": "npm:hosted:build-1745",
+        "storeKey": "npm:hosted:build-1745",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1745"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRWOK2I7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRWOK2I7QAA",
+        "storeKey": "npm:hosted:build-ALNRWOK2I7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRWOK2I7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1832",
+        "type": "hosted",
+        "key": "npm:hosted:build-1832",
+        "storeKey": "npm:hosted:build-1832",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1832"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1774",
+        "type": "hosted",
+        "key": "npm:hosted:build-1774",
+        "storeKey": "npm:hosted:build-1774",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1774"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1036",
+        "type": "hosted",
+        "key": "npm:hosted:build-1036",
+        "storeKey": "npm:hosted:build-1036",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1036"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1402",
+        "type": "hosted",
+        "key": "npm:hosted:build-1402",
+        "storeKey": "npm:hosted:build-1402",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1402"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1957",
+        "type": "hosted",
+        "key": "npm:hosted:build-1957",
+        "storeKey": "npm:hosted:build-1957",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1957"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1747",
+        "type": "hosted",
+        "key": "npm:hosted:build-1747",
+        "storeKey": "npm:hosted:build-1747",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1747"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATI7OKHBYHIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATI7OKHBYHIAA",
+        "storeKey": "npm:hosted:build-ATI7OKHBYHIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATI7OKHBYHIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-831",
+        "type": "hosted",
+        "key": "npm:hosted:build-831",
+        "storeKey": "npm:hosted:build-831",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-831"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1716",
+        "type": "hosted",
+        "key": "npm:hosted:build-1716",
+        "storeKey": "npm:hosted:build-1716",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1716"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1086",
+        "type": "hosted",
+        "key": "npm:hosted:build-1086",
+        "storeKey": "npm:hosted:build-1086",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1086"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATM6P7AOSJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATM6P7AOSJIAA",
+        "storeKey": "npm:hosted:build-ATM6P7AOSJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATM6P7AOSJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1916",
+        "type": "hosted",
+        "key": "npm:hosted:build-1916",
+        "storeKey": "npm:hosted:build-1916",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1916"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJMWZV2SJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJMWZV2SJIAA",
+        "storeKey": "npm:hosted:build-ATJMWZV2SJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJMWZV2SJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJL6BNJKJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJL6BNJKJIAA",
+        "storeKey": "npm:hosted:build-ATJL6BNJKJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJL6BNJKJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ALNRLW24Y7QAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ALNRLW24Y7QAA",
+        "storeKey": "npm:hosted:build-ALNRLW24Y7QAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ALNRLW24Y7QAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-175716749567217664",
+        "type": "hosted",
+        "key": "npm:hosted:build-175716749567217664",
+        "storeKey": "npm:hosted:build-175716749567217664",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-175716749567217664"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJCSYAPAHIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJCSYAPAHIAA",
+        "storeKey": "npm:hosted:build-ATJCSYAPAHIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJCSYAPAHIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ANSDI2U7QJYAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ANSDI2U7QJYAA",
+        "storeKey": "npm:hosted:build-ANSDI2U7QJYAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ANSDI2U7QJYAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-1914",
+        "type": "hosted",
+        "key": "npm:hosted:build-1914",
+        "storeKey": "npm:hosted:build-1914",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-1914"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATJVVTBOKJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATJVVTBOKJIAA",
+        "storeKey": "npm:hosted:build-ATJVVTBOKJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATJVVTBOKJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-ATMVKBEFCJIAA",
+        "type": "hosted",
+        "key": "npm:hosted:build-ATMVKBEFCJIAA",
+        "storeKey": "npm:hosted:build-ATMVKBEFCJIAA",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-ATMVKBEFCJIAA"
+      },
+      {
+        "packageType": "npm",
+        "name": "build-175699223500181504",
+        "type": "hosted",
+        "key": "npm:hosted:build-175699223500181504",
+        "storeKey": "npm:hosted:build-175699223500181504",
+        "storeType": "hosted",
+        "resource_uri": "http://localhost:4000/api/content/npm/hosted/build-175699223500181504"
+      },
+      {
+        "packageType": "npm",
+        "name": "test-npmjs",
+        "type": "remote",
+        "key": "npm:remote:test-npmjs",
+        "storeKey": "npm:remote:test-npmjs",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/npm/remote/test-npmjs"
+      },
+      {
+        "packageType": "npm",
+        "name": "yarnpkg",
+        "type": "remote",
+        "key": "npm:remote:yarnpkg",
+        "storeKey": "npm:remote:yarnpkg",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/npm/remote/yarnpkg"
+      },
+      {
+        "packageType": "npm",
+        "name": "npmjs",
+        "type": "remote",
+        "key": "npm:remote:npmjs",
+        "storeKey": "npm:remote:npmjs",
+        "storeType": "remote",
+        "resource_uri": "http://localhost:4000/api/content/npm/remote/npmjs"
+      }
+    ]
+  }
+]

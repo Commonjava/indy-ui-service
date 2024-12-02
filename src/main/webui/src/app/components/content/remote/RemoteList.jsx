@@ -52,23 +52,44 @@ export default function RemoteList() {
     rawList: [],
     listing: [],
     enableDebug: false,
-    message: ''
+    message: '',
+    nextPage: ''
   });
   const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState("");
+
+  const handleScroll = () => {
+    if (window.innerHeight + document.documentElement.scrollTop + 1
+          >= document.documentElement.scrollHeight) {
+            if (state.nextPage !== undefined) {
+              setPage(state.nextPage);
+            }
+          }
+  };
+
+  useEffect(()=>{
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
 
   useEffect(()=>{
     setLoading(true);
     (async ()=>{
-      const res = await storeRes.getStores(packageType, "remote");
+      const res = await storeRes.getStores(packageType, "remote", page);
       if (res.success){
         let data = res.result;
         if(typeof data === 'string'){
           data = JSON.parse(data);
         }
-        setState({
-          rawList: data.items,
-          listing: data.items
-        });
+        const newState = {
+          rawList: [...state.rawList, ...data.items],
+          listing: [...state.listing, ...data.items],
+        };
+
+        if (data.hasOwnProperty("next_page")) {
+          newState.nextPage = data.next_page;
+        }
+        setState(newState);
       }else{
         setState({
           message: res.error.message
@@ -76,11 +97,7 @@ export default function RemoteList() {
       }
       setLoading(false);
     })();
-  }, [packageType]);
-
-  if (loading) {
-    return <LoadingSpiner />;
-  }
+  }, [packageType, page]);
 
   return (
     <React.Fragment>
@@ -98,6 +115,7 @@ export default function RemoteList() {
         No content fetched!
       </div>
       }
+      {loading && <LoadingSpiner />}
       <ListJsonDebugger enableDebug={state.enableDebug} jsonObj={state.listing} />
     </React.Fragment>
   );
